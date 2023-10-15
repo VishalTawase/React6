@@ -1,0 +1,36 @@
+/* Skills.css */
+
+/* Container for the Skills section */
+.skills-container {
+    background-color: #f9f9f9; /* Background color for the section */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Skills heading */
+  .skills-heading {
+    font-size: 1.5rem;
+    color: #333; /* Text color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* List of skills */
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 1rem;
+    color: #555; /* Text color for skill items */
+    margin-bottom: 10px;
+  }
+  
+  /* Media queries for responsive design (adjust as needed) */
+  @media (max-width: 768px) {
+    .skills-container {
+      padding: 10px;
+    }
+  }
+  

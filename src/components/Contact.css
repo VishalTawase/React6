@@ -1,0 +1,39 @@
+
+.contact-container {
+    background-color: #f9f9f9; /* Background color for the section */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact heading */
+  .contact-heading {
+    font-size: 1.5rem;
+    color: #333; /* Text color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Contact information list */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    font-size: 1rem;
+    color: #555; /* Text color for contact information */
+    margin-bottom: 10px;
+  }
+  
+  .contact-link {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  /* Media queries for responsive design (adjust as needed) */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+
+.projects-container {
+    background-color: #f9f9f9; /* Background color for the section */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Projects heading */
+  .projects-heading {
+    font-size: 1.5rem;
+    color: #333; /* Text color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Individual project item */
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    font-size: 1.2rem;
+    color: #333; /* Text color for project titles */
+  }
+  
+  .project p {
+    font-size: 1rem;
+    color: #555; /* Text color for project descriptions */
+  }
+  
+  /* Media queries for responsive design (adjust as needed) */
+  @media (max-width: 768px) {
+    .projects-container {
+      padding: 10px;
+    }
+  }
+  
